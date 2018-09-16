@@ -1,0 +1,63 @@
+{
+	"id": "3fd7f2ff-d653-c7bc-091b-028911d436f6",
+	"name": "customer-service",
+	"timestamp": 1535100751056,
+	"requests": [
+		{
+			"collectionId": "3fd7f2ff-d653-c7bc-091b-028911d436f6",
+			"id": "19e57a08-a88f-c01f-ed78-2e064fb6e3fd",
+			"name": "customer-update",
+			"description": "update a customer",
+			"url": "localhost:8080/customer/update",
+			"method": "PUT",
+			"headers": "Content-Type: application/json\n",
+			"data": "{\n  \"id\":1,\n  \"gender\":\"male\",\n  \"name\":\"techprudent\",\n  \"contact\":\"67890\"  \n}",
+			"dataMode": "raw",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2
+		},
+		{
+			"collectionId": "3fd7f2ff-d653-c7bc-091b-028911d436f6",
+			"id": "3079e255-c60d-26a8-a4d9-9fdab3721121",
+			"name": "customer-create",
+			"description": "create a customer",
+			"url": "localhost:8080/customer/create",
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"data": "{\n  \"gender\":\"male\",\n  \"name\":\"techprudent\",\n  \"contact\":\"12345\"  \n}",
+			"dataMode": "raw",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2
+		},
+		{
+			"collectionId": "3fd7f2ff-d653-c7bc-091b-028911d436f6",
+			"id": "35f32fae-8cdf-4968-e2c0-5c9782eff9b8",
+			"name": "customer-delete",
+			"description": "delete a customer",
+			"url": "localhost:8080/customer/1",
+			"method": "DELETE",
+			"headers": "Content-Type: application/json\n",
+			"data": "",
+			"dataMode": "raw",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2
+		},
+		{
+			"collectionId": "3fd7f2ff-d653-c7bc-091b-028911d436f6",
+			"id": "8e59e539-8d53-865e-2daf-c676cebc845a",
+			"name": "customer-get",
+			"description": "get a customer",
+			"url": "localhost:8080/customer/1",
+			"method": "GET",
+			"headers": "Content-Type: application/json\n",
+			"data": "{\n  \"gender\":\"male\",\n  \"name\":\"techprudent\",\n  \"contact\":\"12345\"  \n}",
+			"dataMode": "raw",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2
+		}
+	]
+}
